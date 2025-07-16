@@ -1,0 +1,34 @@
+{
+  "name": "RNPhotoEditorSDK",
+  "version": "3.3.0",
+  "summary": "A React Native module for PhotoEditor SDK. Integrate the photo editor into your own HTML5, iOS or Android app - in minutes!",
+  "description": "A React Native module for PhotoEditor SDK. Integrate the photo editor into your own HTML5, iOS or Android app - in minutes!",
+  "homepage": "https://www.photoeditorsdk.com",
+  "license": {
+    "type": "BSD-3-Clause",
+    "file": "LICENSE.md"
+  },
+  "authors": {
+    "IMG.LY GmbH": "contact@img.ly"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/imgly/pesdk-react-native.git",
+    "tag": "3.3.0"
+  },
+  "source_files": "ios/**/*.{h,m,swift}",
+  "public_header_files": [
+    "ios/RNPhotoEditorSDK.h",
+    "ios/RNImglyKit.h"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "React": [],
+    "React-RCTImage": [],
+    "PhotoEditorSDK": [
+      "~> 11.9"
+    ]
+  }
+}
