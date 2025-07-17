@@ -480,7 +480,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = s4ych33se.app.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = example.app.ios;
 				PRODUCT_NAME = ExampleProject;
 				REGISTER_APP_GROUPS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
